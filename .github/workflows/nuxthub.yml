@@ -14,12 +14,12 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-
-      - name: Install bun
       - uses: oven-sh/setup-bun@v2
-        # uses: bun/action-setup@v4
-        # with:
-        #   version: 9
+
+      # - name: Install bun
+      # uses: bun/action-setup@v4
+      # with:
+      #   version: 9
 
       - name: Install Node.js
         uses: actions/setup-node@v4
