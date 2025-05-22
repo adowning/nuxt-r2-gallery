@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/html-self-closing -->
 <template>
   <div class="container mx-auto p-4">
     <header class="mb-8 text-center">
