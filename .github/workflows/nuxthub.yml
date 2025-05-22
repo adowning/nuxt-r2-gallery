@@ -34,7 +34,7 @@ jobs:
         run: bunx nuxthub@latest ensure
 
       - name: Build application
-        run: bun build
+        run: bun run build
 
       - name: Deploy to NuxtHub
         uses: nuxt-hub/action@v1
